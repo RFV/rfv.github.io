@@ -31,7 +31,7 @@ body {
   max-width: 400px;
   min-width: 300px;
   height: 200px;
-  background: #666;
+  background: #bbb;
   position: relative;
   box-sizing: border-box;
   padding-top: 40px;
@@ -71,7 +71,7 @@ body {
   /*color: #f00;*/
 }
 #profile .info {
-  color: #888;
+  color: #444;
   font-size: 0.9rem;
   padding-bottom: 7px;
 }
