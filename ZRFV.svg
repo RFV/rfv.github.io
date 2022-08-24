@@ -10,28 +10,137 @@
   <linearGradient id="RFV">
     <stop style="stop-color:black;stop-opacity:0.5"/>
   </linearGradient>
+  <linearGradient id="RFV_bottom">
+    <stop style="stop-color:black;stop-opacity:0"/>
+  </linearGradient>
+  <linearGradient id="RFV_right">
+    <stop style="stop-color:black;stop-opacity:0"/>
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="RFV_grad">
+    <stop style="stop-color:black;stop-opacity:0" 
+       offset="25%"/>
+    <stop style="stop-color:black;stop-opacity:0"
+       offset="75%"/>
+  </linearGradient>
 </defs>
-   <rect x="33" y="1" width="190" height="62" style="fill:black;fill-opacity:0.5;stroke:black;stroke-width:2"/> 
-   <rect x="-4" y="97" width="264" height="62" style="fill:black;fill-opacity:0.5;stroke:black;stroke-width:2" transform = "rotate(-45 128 128)"/> 
-   <rect x="33" y="193" width="190" height="62" style="fill:black;fill-opacity:0.5;stroke:black;stroke-width:2"/> 
+<!-- Z -->
+<rect x="33" y="1" width="190" height="62" style="fill:black;fill-opacity:0.5;stroke:black;stroke-width:2"/> 
+<rect x="-4" y="97" width="264" height="62" style="fill:black;fill-opacity:0.5;stroke:black;stroke-width:2" transform = "rotate(-45 128 128)"/> 
+<rect x="33" y="193" width="190" height="62" style="fill:black;fill-opacity:0.5;stroke:black;stroke-width:2"/> 
 
-   <circle cx="32" cy="32" r="31" style="fill:rgb(101, 101, 255);stroke:black;stroke-width:2"/>
-   <circle cx="224" cy="32" r="31" style="fill:rgb(0, 167, 0);stroke:black;stroke-width:2"/>
-   <circle cx="32" cy="224" r="31" style="fill:rgb(234, 0, 0);stroke:black;stroke-width:2"/>
-   <circle cx="224" cy="224" r="31" style="fill:rgb(255, 255, 0);stroke:black;stroke-width:2"/>
+<circle cx="32" cy="32" r="31" style="fill:rgb(101, 101, 255);stroke:black;stroke-width:2"/>
+<circle cx="224" cy="32" r="31" style="fill:rgb(0, 167, 0);stroke:black;stroke-width:2"/>
+<circle cx="32" cy="224" r="31" style="fill:rgb(234, 0, 0);stroke:black;stroke-width:2"/>
+<circle cx="224" cy="224" r="31" style="fill:rgb(255, 255, 0);stroke:black;stroke-width:2"/>
+
 <!-- R -->
-
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 336 256 h 32 l 16 16 h -48 q -16 0 -16 -16 l 0 -16 q 0 16 16 16 z"/>
+<path   
+   fill="url(#RFV_grad)"
+   d="M 368 256 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 384 128 l 16 16 v 112 l -16 -16 z"/>
+<path
+   fill="url(#RFV_bottom)"
+   d="M 384 128 h 48 l 16 16 h -48 z"/>
+<path
+   fill="url(#RFV_grad)"
+   d="M 432 128 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path
+   fill="url(#RFV_right)"
+   d="M 448 64 l 16 16 v 48 l -16 -16 z"/>
+<path
+   fill="url(#RFV_bottom)"
+   d="M 448 64 h 112 l 16 16 h -112 z"/>
+<path
+   fill="url(#RFV_grad)"
+   d="M 560 64 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path
+   fill="url(#RFV_right)"
+   d="M 592 16 v 48 l -16 -16 v -32 q 0 -16 -16 -16 h 16 q 16 0 16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 400 16 v 48 h -16 v -48 q 0 -16 -16 -16 h 16 q 16 0 16 16 z"/>
 <path   
    fill="url(#RFV)"
    d="M 320 16 q 0 -16 16 -16 h 32 q 16 0 16 16 v 48 h 64 v -48 q 0 -16 16 -16 h 96 q 16 0 16 16 v 32 q 0 16 -16 16 h -112 v 48 q 0 16 -16 16 h -48 v 112 q 0 16 -16 16 h -32 q -16 0 -16 -16 z"/>
 <!-- F -->
-
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 656 192 h 48 v 16 h -48 q -16 0 -16 -16 l 0 -16 q 0 16 16 16 z"/>
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 720 256 h 32 l 16 16 h -48 q -16 0 -16 -16 l 0 -16 q 0 16 16 16 z"/>
+<path   
+   fill="url(#RFV_grad)"
+   d="M 752 256 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 784 256 v -48 l -16 -16 v 48 z"/>
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 768 192 h 48 l 16 16 h -48 z"/>
+<path   
+   fill="url(#RFV_grad)"
+   d="M 816 192 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 848 144 v 48 l -16 -16 v -32 q 0 -16 -16 -16 h 16 q 16 0 16 16  z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 768 64 l 16 16  v 48 h -16 z"/>
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 768 64 h 112 l 16 16 h -112 z"/>
+<path   
+   fill="url(#RFV_grad)"
+   d="M 880 64 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 912 16 v 48 l -16 -16 v -32 q 0 -16 -16 -16 h 16 q 16 0 16 16  z"/>
 <path   
    fill="url(#RFV)"
    d="M 880 0 q 16 0 16 16 v 32 q 0 16 -16 16 h -112 v 64 h 48 q 16 0 16 16 v 32 q 0 16 -16 16 h -48 v 48 q 0 16 -16 16 h -32 q -16 0 -16 -16 v -48 h -48 q -16 0 -16 -16 v -32 q 0 -16 16 -16 h 48 v -48 q 0 -16 16 -16 h 48 v -48 q 0 -16 16 -16 z"/>
 <!-- V -->
-
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 976 128 h 48 v 16 h -48 q -16 0 -16 -16 l 0 -16 q 0 16 16 16 z"/>
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 1040 192 h 48 v 16 h -48 q -16 0 -16 -16 l 0 -16 q 0 16 16 16 z"/>
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 1104 256 h 32 l 16 16 h -48 q -16 0 -16 -16 l 0 -16 q 0 16 16 16 z"/>
+<path   
+   fill="url(#RFV_grad)"
+   d="M 1136 256 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 1168 256 v -48 l -16 -16 v 48 z"/>
+<path   
+   fill="url(#RFV_bottom)"
+   d="M 1152 192 h 48 l 16 16 h -48 z"/>
+<path   
+   fill="url(#RFV_grad)"
+   d="M 1200 192 q 16 0 16 -16 l 16 16 q 0 16 -16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 1232 16 v 176 l -16 -16 v -160 q 0 -16 -16 -16 h 16 q 16 0 16 16 z"/>
 <path
+   fill="url(#RFV_right)"
+   d="M 1104 144 v 48 h -16 v -48 q 0 -16 -16 -16 h 16 q 16 0 16 16 z"/>
+<path   
+   fill="url(#RFV_right)"
+   d="M 1040 16 v 112 h -16 v -112 q 0 -16 -16 -16 h 16 q 16 0 16 16 z"/>
+<path   
    fill="url(#RFV)"
    d="M 960 16 q 0 -16 16 -16 h 32 q 16 0 16 16 v 112 h 48 q 16 0 16 16 v 48 h 64 v -176 q 0 -16 16 -16 h 32 q 16 0 16 16 v 160 q 0 16 -16 16 h -48 v 48 q 0 16 -16 16 h -32 q -16 0 -16 -16 v -48 h -48 q -16 0 -16 -16 v -48 h -48 q -16 0 -16 -16 z"/>
 </svg>
