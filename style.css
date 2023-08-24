@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
 body,
 html {
   margin: 0;
@@ -37,7 +37,7 @@ body {
   box-sizing: border-box;
   padding-top: 32px;
   padding-left: 25px;
-  font-family: 'Recursive';
+  font-family: sans-serif;
 }
 #profile .image {
   position: absolute;
@@ -66,14 +66,14 @@ body {
 }
 
 #profile .name {
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 400;
   /*color: #f00;*/
 }
 #profile .info {
   color: #444;
-  font-size: 0.9rem;
-  padding-bottom: 7px;
+  font-size: 1rem;
+  padding-bottom: 8px;
 }
 #profile .location {
   color: #888;
@@ -108,4 +108,18 @@ body {
 a {
   color: inherit;
   text-decoration: none; /* no underline */
+}
+
+b {
+  color: inherit;
+  font-weight: 800;
+  font-family: "BLOK";
+}
+
+@font-face {
+  font-family: "BLOK";
+  src:
+    url("files/BLOK.woff2") format("woff2"),
+  font-weight: normal;
+  font-style: normal;
 }
