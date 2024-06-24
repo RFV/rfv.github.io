@@ -41,7 +41,14 @@
           const social = document.querySelector('.social');
           social.style.color = colour;
 
-          document.getElementsByTagName("body")[0].style.backgroundImage = "linear-gradient(to right bottom, " + colour + ", rgba(0, 0, 0, 0)), url(" + background + ".jpg)";
+          // document.getElementsByTagName("body")[0].style.backgroundImage = "linear-gradient(to right, " + colour + ", rgba(0, 0, 0, 0)), url(" + background + ".jpg)";
+          document.body.style.backgroundColor = colour;
+          // document.body.style.backgroundImage = "url('grey-background.jpg')";
+          // document.body.opacity = "0.5";
+
+          // var element = document.getElementsByTagName("body")[0].style.backgroundImage;
+          // element.style.opacity = "0.9";
+
 
         }
         window.onload = starter;
@@ -57,10 +64,7 @@
       <img src="46.jpg" alt="" id="RFV_img"/>
     </div>
     <div class="name">
-      <b>R</b>iaan <b>F</b>rancois <b>V</b>enter
-    </div>
-    <div class="logo">
-      <img src="ZRFV.svg" alt="" />
+      <b>R<font color="black">iaan</font> F<font color="black">rancois</font> V<font color="black">enter</font></b>
     </div>
     <div class="location">
     <i class="material-icons">place</i>Europe
