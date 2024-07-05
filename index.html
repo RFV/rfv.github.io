@@ -12,19 +12,26 @@
   <title>Riaan Francois Venter</title>
   <link rel="stylesheet" href="./style.css">
   <script type="text/JavaScript">
-        var list = [1, 2, 3, 4, 5, 6, 7]
-        var index = Math.floor(Math.random() * 6) + 1;
-        var myVar = setInterval(pic_change, 4096);
+        var images = ["img/1.jpg",
+                      "img/2.jpg",
+                      "img/3.jpg",
+                      "img/4.jpg",
+                      "img/5.jpg",
+                      "img/6.jpg",
+                      "img/7.jpg",
+                      "svg/Z_white.svg"]
+        var index = Math.floor(Math.random() * (images.length-1)) + 1;
+        var picChangeInterval = setInterval(picChange, 4096);
+        
 
-        function pic_change()  {
-            var pic_number = list[index];
+        function picChange()  {
+            var imgBox = document.getElementById('RFV_img');
+            imgBox.src = images[index];
             index = (index == 7 ? 0 : index + 1)
-            var pic_image = document.getElementById('RFV_img');
-            pic_image.src = "img/" + pic_number + '.jpg';
         }
         function starter()
         {
-          pic_change();
+          picChange();
 
           var colours = ["#ea0000", "#00a700", "#6565ff"];
           var colour = colours[Math.floor(Math.random()*colours.length)];
@@ -48,7 +55,7 @@
   <div id="header"></div>
   <div id="profile">
     <div class="image">
-      <img src="46.jpg" alt="" id="RFV_img"/>
+      <img alt="" id="RFV_img"/>
     </div>
     <div class="name">
       <b>R<font color="black">iaan</font> F<font color="black">rancois</font> V<font color="black">enter</font></b>
