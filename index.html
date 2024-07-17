@@ -12,31 +12,35 @@
   <title>Riaan Francois Venter</title>
   <link rel="stylesheet" href="./style.css">
   <script type="text/JavaScript">
-        var images = ["img/1.jpg",
-                      "img/2.jpg",
-                      "img/3.jpg",
-                      "img/4.jpg",
-                      "img/5.jpg",
-                      "img/6.jpg",
-                      "img/7.jpg",
-                      "svg/Z_white_thick.svg"]
-        var index = Math.floor(Math.random() * (images.length-1)) + 1;
+        var images = [
+          "svg/Z_white_thick.svg",
+          "img/1.jpg",
+          "img/2.jpg",
+          "img/3.jpg",
+          "img/4.jpg",
+          "img/5.jpg",
+          "img/6.jpg",
+          "img/7.jpg",
+          ];
+        var image_index = Math.floor(Math.random() * (images.length-1)) + 1;
+        
+        var colours = ["#ea0000", "#00a700", "#6565ff","#ffff00"];
+        var colour_index = Math.floor(Math.random() * (colours.length-1)) + 1;
+
         var picChangeInterval = setInterval(picChange, 4096);
         
-
         function picChange()  {
             var imgBox = document.getElementById('RFV_img');
-            imgBox.src = images[index];
-            index = (index == 7 ? 0 : index + 1)
+            imgBox.src = images[image_index];
+            image_index = (image_index == 7 ? 0 : image_index + 1);
+            if (image_index == 0) { // cycle the background colour for every image change cycle
+              colour_change();
+            }
         }
-        function starter()
-        {
-          picChange();
 
-          var colours = ["#ea0000", "#00a700", "#6565ff"];
-          var colour = colours[Math.floor(Math.random()*colours.length)];
-          var backgrounds = ["grey-background", "grey-shapes", "iron_texture", "iron_texture2"];
-          var background = backgrounds[Math.floor(Math.random()*backgrounds.length)];
+        function colour_change() {
+          colour = colours[colour_index];
+          colour_index = (colour_index == 3 ? 0 : colour_index + 1);
 
           const name = document.querySelector('.name');
           name.style.color = colour;
@@ -45,6 +49,15 @@
           social.style.color = colour;
 
           document.body.style.backgroundColor = colour;
+        }
+        function starter()
+        {
+          colour_change();
+          picChange();
+          
+          // var colour = colours[Math.floor(Math.random()*colours.length)];
+          // var backgrounds = ["grey-background", "grey-shapes", "iron_texture", "iron_texture2"];
+          // var background = backgrounds[Math.floor(Math.random()*backgrounds.length)];
         }
         window.onload = starter;
   </script>
