@@ -19,7 +19,7 @@ body {
 #header {
   width: 50vw;
   max-width: 400px;
-  min-width: 300px;
+  min-width: 400px;
   height: 150px;
   background: url(img/ZRFV.png);
   background-size: cover;
@@ -30,7 +30,7 @@ body {
 #profile {
   width: 50vw;
   max-width: 400px;
-  min-width: 300px;
+  min-width: 400px;
   height: 200px;
   background: #bbb;
   position: relative;
