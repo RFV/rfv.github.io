@@ -21,7 +21,8 @@ body {
   max-width: 400px;
   min-width: 400px;
   height: 150px;
-  background: url(img/ZRFV.png);
+  background: url(img/ZRFV_front.png), url(img/dark-mode.jpg);
+  background-color: black;
   background-size: cover;
   background-position: center center;
   transition: all 0.08s linear;
