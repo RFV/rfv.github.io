@@ -21,7 +21,9 @@ body {
   max-width: 400px;
   min-width: 400px;
   height: 150px;
-  background: url(img/ZRFV_front.png), url(img/dark-mode.jpg);
+  background: url("img/ZRFV_front.png"), url("img/wallpap.jpg");
+
+  /* ['url("img/wallpap.jpg")', 'url("img/Abstract.jpg")', 'url("img/back1.jpg")', 'url("img/cf7e458.jpg")', 'url("img/dark-mode.jpg")', 'url("img/Grey-lines.jpg")', 'url("img/K7tq1CL.jpg")']; */
   background-color: black;
   background-size: cover;
   background-position: center center;
@@ -96,8 +98,7 @@ b {
 
 @font-face {
   font-family: "BLOK";
-  src:
-    url("files/BLOK.woff2") format("woff2"),
+  src: url("files/BLOK.woff2"), format("woff2");
   font-weight: normal;
   font-style: normal;
 }

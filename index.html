@@ -12,7 +12,7 @@
   <title>Riaan Francois Venter</title>
   <link rel="stylesheet" href="./style.css">
   <script type="text/JavaScript">
-        var images = [
+        var faces = [
           "svg/Z_white_thick.svg",
           "img/1.jpg",
           "img/2.jpg",
@@ -22,18 +22,18 @@
           "img/6.jpg",
           "img/7.jpg",
           ];
-        var image_index = Math.floor(Math.random() * (images.length-1)) + 1;
+        var faces_index = Math.floor(Math.random() * (faces.length-1)) + 1;
         
         var colours = ["#ea0000", "#00a700", "#6565ff","#ffff00"];
         var colour_index = Math.floor(Math.random() * (colours.length-1)) + 1;
-
+      
         var picChangeInterval = setInterval(picChange, 4096);
         
         function picChange()  {
             var imgBox = document.getElementById('RFV_img');
-            imgBox.src = images[image_index];
-            image_index = (image_index == 7 ? 0 : image_index + 1);
-            if (image_index == 0) { // cycle the background colour for every image change cycle
+            imgBox.src = faces[faces_index];
+            faces_index = (faces_index == 7 ? 0 : faces_index + 1);
+            if (faces_index == 0) { // cycle the background colour for every image change cycle
               colour_change();
             }
         }
