@@ -21,9 +21,7 @@ body {
   max-width: 400px;
   min-width: 400px;
   height: 150px;
-  background: url("img/ZRFV_front.png"), url("img/wallpap.jpg");
-
-  /* ['url("img/wallpap.jpg")', 'url("img/Abstract.jpg")', 'url("img/back1.jpg")', 'url("img/cf7e458.jpg")', 'url("img/dark-mode.jpg")', 'url("img/Grey-lines.jpg")', 'url("img/K7tq1CL.jpg")']; */
+  background: url("img/cf7e458.jpg");
   background-color: black;
   background-size: cover;
   background-position: center center;
