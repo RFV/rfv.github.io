@@ -27,23 +27,13 @@
         var colours = ["#ea0000", "#00a700", "#6565ff"];
         var colour_index = Math.floor(Math.random() * (colours.length-1)) + 1;
 
-        var backgrounds = [
-          "img/Abstract.jpg",
-          "img/back1.jpg",
-          "img/cf7e458.jpg",
-          "img/dark-mode.jpg",
-          "img/Grey-lines.jpg",
-          "img/K7tq1CL.jpg",
-          "img/wallpap.jpg",
-          ];
-      
         var now = new Date();
         var start = new Date(now.getFullYear(), 0, 0);
         var diff = now - start;
         var oneDay = 1000 * 60 * 60 * 24;
         var day = Math.floor(diff / oneDay);
 
-        background = backgrounds[day % backgrounds.length];
+        background = "img/Grey-lines.jpg";
       
         var picChangeInterval = setInterval(picChange, 4096);
         
