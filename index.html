@@ -39,14 +39,11 @@
             var imgBox = document.getElementById('RFV_img');
             imgBox.src = faces[faces_index];
             faces_index = (faces_index == 7 ? 0 : faces_index + 1);
-            if (faces_index == 0) { // cycle the background colour for every image change cycle
-              colour_change();
-            }
         }
 
-        function colour_change() {
+        function starter()
+        {
           colour = colours[colour_index];
-          colour_index = (colour_index == 3 ? 0 : colour_index + 1);
 
           const name = document.querySelector('.name');
           name.style.color = colour;
@@ -54,17 +51,12 @@
           const bottom = document.querySelector('.bottom');
           bottom.style.color = colour;
 
-          document.body.style.backgroundColor = colour;
-        }
-        function starter()
-        {
-          colour_change();
-          picChange();
+          picChange()
         }
         window.onload = starter;
   </script>
 </head>
-<body>
+<body bgcolor="black">
 
 <div class="shadow overflow">
   <div id="header"></div>
