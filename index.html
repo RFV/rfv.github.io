@@ -25,7 +25,6 @@
         var faces_index = 0;
         
         var colours = ["#ea0000", "#00a700", "#6565ff"];
-        var colour_index = Math.floor(Math.random() * (colours.length-1)) + 1;
 
         var now = new Date();
         var start = new Date(now.getFullYear(), 0, 0);
@@ -43,7 +42,7 @@
 
         function starter()
         {
-          colour = colours[colour_index];
+          colour = colours[Math.floor(Math.random() * colours.length)];;
 
           const name = document.querySelector('.name');
           name.style.color = colour;
@@ -56,7 +55,7 @@
         window.onload = starter;
   </script>
 </head>
-<body bgcolor="gray">
+<body bgcolor="black">
 
 <div class="shadow overflow">
   <div id="header"></div>
