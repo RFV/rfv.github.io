@@ -18,15 +18,15 @@ body {
 }
 
 #header {
-  width: 400px;
-  height: 150px;
+  width: 384px;
+  height: 128px;
   background-size: cover;
   background-position: center center;
   transition: all 0.08s linear;
 }
 
 #profile {
-  width: 400px;
+  width: 384px;
   height: 256px;
   background: url("img/dark-mode.jpg");
   position: relative;
