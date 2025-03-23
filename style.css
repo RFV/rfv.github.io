@@ -18,42 +18,22 @@ body {
 }
 
 #header {
-  width: 50vw;
-  max-width: 400px;
-  min-width: 400px;
+  width: 400px;
   height: 150px;
-  background: url("img/dark-mode.jpg");
-  /* background-color: #aaaa; */
   background-size: cover;
   background-position: center center;
   transition: all 0.08s linear;
 }
 
 #profile {
-  width: 50vw;
-  max-width: 400px;
-  min-width: 400px;
-  height: 200px;
-  background: #000;
+  width: 400px;
+  height: 256px;
+  background: url("img/dark-mode.jpg");
   position: relative;
   box-sizing: border-box;
   padding-top: 32px;
   padding-left: 25px;
   font-family: sans-serif;
-}
-#profile .image {
-  position: absolute;
-  border: 2px solid yellow;
-  top: -112px;
-  left: 20px;
-  height: 128px;
-  width: 128px;
-  border-radius: 8px;
-}
-#profile .image img {
-  width: inherit;
-  height: inherit;
-  border-radius: 4px;
 }
 
 #profile .name {
@@ -61,10 +41,9 @@ body {
   font-weight: 400;
   /*color: #f00;*/
 }
-#profile .info {
-  color: #444;
-  font-size: 1rem;
-  padding-bottom: 8px;
+
+#profile .bottom {
+  margin-top: 32px;
 }
 
 .shadow {
@@ -75,10 +54,6 @@ body {
 
 .overflow {
   overflow: hidden;
-}
-
-#profile .bottom {
-  margin-top: 20px;
 }
 
 .social {
@@ -93,13 +68,21 @@ a {
 
 b {
   color: inherit;
+  font-size: 24px;
   font-weight: 800;
-  font-family: "BLOK";
+  font-family: "ZRFV";
+}
+
+z {
+  color: yellow;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "ZRFV";
 }
 
 @font-face {
-  font-family: "BLOK";
-  src: url("files/BLOK.woff2"), format("woff2");
+  font-family: "ZRFV";
+  src: url("files/ZRFV-Book.woff2"), format("woff2");
   font-weight: normal;
   font-style: normal;
 }
