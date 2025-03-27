@@ -28,7 +28,10 @@ body {
 #profile {
   width: 384px;
   height: 256px;
-  background: url("img/dark-mode.jpg");
+  background: url("img/Abstract.jpg"); 
+  animation-name: example;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
   position: relative;
   box-sizing: border-box;
   padding-top: 32px;
@@ -85,4 +88,13 @@ z {
   src: url("files/ZRFV-Book.woff2"), format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+
+@keyframes example {
+  0%   {background-position: -0px -200px; */}
+  20%  {background-position: -200px -300px; */}
+  40%  {background-position: -300px -700px; */}
+  60%  {background-position: -300px -200px; */}
+  80% {background-position: -100px -300px; */}
+  100% {background-position: -0px -200px; */}
 }
