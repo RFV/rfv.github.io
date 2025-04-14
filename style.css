@@ -84,7 +84,7 @@ z {
 
 @font-face {
   font-family: "ZRFV";
-  src: url("files/ZRFV-Book.woff"), format("woff");
+  src: url("files/ZRFV-Book.woff2"), format("woff2");
   font-weight: normal;
   font-style: normal;
   font-kerning: none;
