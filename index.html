@@ -19,10 +19,10 @@
       document.querySelector('.name').style.color = colour;
       document.querySelector('.links').style.color = colour;
 
-      var tone_colours = [["#ffff00", "#000000"], ["#000000", "#ffffff"]];
+      var tone_colours = [["#ffff00", "'img/waves.jpg'"], ["#000000", "'img/waves_inv.jpg'"]];
       tone_colour = tone_colours[Math.floor(Math.random() * tone_colours.length)];
       document.querySelector('z').style.color = tone_colour[0];
-      document.body.style.backgroundColor = tone_colour[1];
+      document.body.style.backgroundImage = "url(" + tone_colour[1] + ")"; 
     }
     window.onload = starter;
   </script>
@@ -31,7 +31,7 @@
 
 <div id="profile" class="background">
   <div class="name">
-    <rfv>R<font color=#aaa>iaan</font> F<font color=#aaa>rancois</font> V<font color=#aaa>enter</font></rfv><br>
+    <rfv>R<font color=#888>iaan</font> F<font color=#888>rancois</font> V<font color=#888>enter</font></rfv><br>
     <z>Z</z>
   </div>
   <div class="links">
