@@ -9,6 +9,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url('img/ropes.jpg');
+
   display: flex;
   justify-content: center;
   align-items: center;
