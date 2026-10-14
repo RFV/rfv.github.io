@@ -10,7 +10,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('img/ropes.jpg');
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,15 +47,24 @@ a {
   text-decoration: none; /* no underline */
 }
 
-rfv {
-  color: inherit;
+RFV {
+  color: rgb(128, 128, 128);
   font-size: 24px;
+  /* font-family: "ZRFV"; */
+}
+
+R {
+  color: rgb(101, 101, 255);
   font-family: "ZRFV";
 }
 
-z {
-  color: yellow;
-  font-size: 32px;
+F {
+  color: rgb(0, 167, 0);
+  font-family: "ZRFV";
+}
+
+V {
+  color: rgb(234, 0, 0);
   font-family: "ZRFV";
 }
 
