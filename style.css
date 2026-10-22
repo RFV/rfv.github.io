@@ -5,6 +5,8 @@ body {
   padding: 0;
   min-height: 100vh;
   min-width: 100vw;
+  color: rgb(128, 128, 128);
+  font-family: sans-serif;
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +25,6 @@ body {
   box-sizing: border-box;
   padding-top: 32px;
   padding-left: 25px;
-  font-family: sans-serif;
   overflow: hidden;
 }
 
@@ -48,9 +49,8 @@ a {
 }
 
 RFV {
-  color: rgb(128, 128, 128);
   font-size: 24px;
-  /* font-family: "ZRFV"; */
+  font-family: "ZRFV";
 }
 
 R {
