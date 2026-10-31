@@ -5,7 +5,7 @@ body {
   padding: 0;
   min-height: 100vh;
   min-width: 100vw;
-  color: rgb(128, 128, 128);
+  color: black;
   font-family: sans-serif;
   background-color: white;
   background-size: cover;
@@ -54,17 +54,17 @@ RFV {
 }
 
 R {
-  /* color: rgb(101, 101, 255); */
+  color: rgb(85, 85, 85);
   font-family: "ZRFV";
 }
 
 F {
-  /* color: rgb(0, 167, 0); */
+  color: rgb(85, 85, 85);
   font-family: "ZRFV";
 }
 
 V {
-  /* color: rgb(234, 0, 0); */
+  color: rgb(85, 85, 85);
   font-family: "ZRFV";
 }
 
