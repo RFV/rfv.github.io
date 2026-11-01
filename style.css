@@ -5,13 +5,13 @@ body {
   padding: 0;
   min-height: 100vh;
   min-width: 100vw;
-  color: black;
+  color: grey;
   font-family: sans-serif;
-  background-color: white;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/ropes_inv.jpg');
+  background-image: url('img/ropes2.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,17 +54,17 @@ RFV {
 }
 
 R {
-  color: rgb(85, 85, 85);
+  color: #FFF;
   font-family: "ZRFV";
 }
 
 F {
-  color: rgb(85, 85, 85);
+  color: #FFF;
   font-family: "ZRFV";
 }
 
 V {
-  color: rgb(85, 85, 85);
+  color: #FFF;
   font-family: "ZRFV";
 }
 
