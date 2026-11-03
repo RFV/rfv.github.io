@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/ropes2.jpg');
+  background-image: url('img/ropes2_inv.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,17 +54,17 @@ RFV {
 }
 
 R {
-  color: #FFF;
+  color: #000;
   font-family: "ZRFV";
 }
 
 F {
-  color: #FFF;
+  color: #000;
   font-family: "ZRFV";
 }
 
 V {
-  color: #FFF;
+  color: #000;
   font-family: "ZRFV";
 }
 
