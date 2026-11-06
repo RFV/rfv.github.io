@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/ropes2_inv.jpg');
+  background-image: url('img/waves_inv.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,11 @@ body {
 a {
   color: inherit;
   text-decoration: none; /* no underline */
+}
+
+.Z {
+  content: url("img/Z_black_full.png");
+  height: 32px;
 }
 
 RFV {
