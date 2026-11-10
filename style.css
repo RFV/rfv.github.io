@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/waves.jpg');
+  background-image: url('img/waves2.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,8 +49,8 @@ a {
 }
 
 .Z {
-  content: url("img/Z_white.png");
-  height: 64px;
+  content: url("img/Z_yellow_ball.png");
+  height: 32px;
 }
 
 RFV {
@@ -60,17 +60,17 @@ RFV {
 }
 
 R {
-  color: #fff;
+  color: #6565FF; /* #fff; */
   font-family: "ZRFV";
 }
 
 F {
-  color: #fff;
+  color: #00A700; /* #fff; */
   font-family: "ZRFV";
 }
 
 V {
-  color: #fff;
+  color: #EA0000; /* #fff; */
   font-family: "ZRFV";
 }
 
