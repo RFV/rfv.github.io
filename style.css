@@ -81,3 +81,19 @@ V {
   font-style: normal;
   font-kerning: none;
 }
+
+#wordflash {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+#wordflash span {
+  padding: 0 0.08em;
+  border-radius: 4px;
+  transition: color 60ms linear, background-color 60ms linear;
+}
+
+#wordflash span.active {
+  color: #ffff00 !important;
+  background: rgba(255, 255, 0, 0.12);
+}
