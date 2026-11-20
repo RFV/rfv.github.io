@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/waves2.jpg');
+  background-image: url('img/ropes.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,8 +49,8 @@ a {
 }
 
 .Z {
-  content: url("img/yellow_white_thick.png");
-  height: 32px;
+  content: url("img/Z32_kleur.png");
+  height: 40px;
 }
 
 RFV {
