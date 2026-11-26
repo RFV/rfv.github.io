@@ -1,5 +1,6 @@
 // ---- configuration -------------------------------------------------
 const WORDS = [
+  "money", "wealth", "security", "properity", "health", "longevity",
   "philosophy", "math", "computation", "logic", "linguistics", 
   "computers", "linux", "python", "llm", "harness", "tools",
   "economics", "business", "organization", 
